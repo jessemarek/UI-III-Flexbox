@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -177,6 +177,7 @@ header.services-header {
 .page-title h1 {
 	font-size: 100px;
 	text-align: center;
+	line-height: 1;
 }
 
 .page-title button {
@@ -239,6 +240,14 @@ section.container {
 	width: 100%;
 }
 
+.top-content.container {
+	border-bottom: 3px solid #000;
+}
+
+.bottom-content.container {
+	border: none;
+}
+
 .service-item {
 	background: #DCDCDC;
 	border: 1px solid #000;
@@ -263,4 +272,26 @@ section.container {
 	border: 1px solid #000;
 	outline-style: none;
 	box-shadow: 1px 1px 2px #323232;
+}
+
+.bottom-content .service-item {
+	border: none;
+	background: none;
+	padding: 0;
+}
+
+.bottom-content .service-item ul {
+	list-style: unset;
+	line-height: 2;
+	position: absolute;
+	left: 8%;
+}
+
+.bottom-content .services-info-img {
+	width: 100%;
+	box-shadow: 5px 5px 8px #000;
+}
+
+#service-facts {
+	padding: 0 8% 0 0;
 }
