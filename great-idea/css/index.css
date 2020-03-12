@@ -307,3 +307,7 @@ section.container {
 	margin: 5% 5% 5% 15%;
 	box-shadow: 5px 5px 8px #323232;
 }
+
+#about-details {
+	line-height: 2;
+}
