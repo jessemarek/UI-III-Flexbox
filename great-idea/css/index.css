@@ -193,11 +193,11 @@ header.services-header {
 	box-shadow: 1px 1px 2px #323232;
 }
 
-.page-title button:hover {
+.page-title button:hover, .service-item button:hover {
 	cursor: pointer;
 }
 
-.page-title button:active {
+.page-title button:active, .service-item button:active {
 	box-shadow: none;
 }
 
@@ -229,4 +229,38 @@ header.services-header {
 footer {
 	text-align: center;
 	padding: 5%;
+}
+
+/* Services Page Styles */
+section.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.service-item {
+	background: #DCDCDC;
+	border: 1px solid #000;
+	width: 45%;
+	padding: 2%;
+	margin: 2%;
+}
+
+.service-item h3 {
+	font-size: 24px;
+}
+
+.service-item p {
+	font-size: 18px;
+}
+
+.service-item button {
+	display: block;
+	font-size: 14px;
+	padding: 2% 10%;
+	margin: 5% 0 0 0;
+	border: 1px solid #000;
+	outline-style: none;
+	box-shadow: 1px 1px 2px #323232;
 }
