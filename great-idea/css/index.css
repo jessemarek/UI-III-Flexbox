@@ -210,11 +210,11 @@ header.services-header {
 
 .middle-img, .services-header-img {
 	width: 100%;
-	box-shadow: 5px 5px 8px #000;
+	box-shadow: 5px 5px 8px #323232;
 }
 
 .bottom-content {
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid #000;
 }
 
 .bottom-content .container div {
@@ -289,9 +289,21 @@ section.container {
 
 .bottom-content .services-info-img {
 	width: 100%;
-	box-shadow: 5px 5px 8px #000;
+	box-shadow: 5px 5px 8px #323232;
 }
 
 #service-facts {
 	padding: 0 8% 0 0;
+}
+
+/* About Page Styles */
+.about-header-img {
+	width: 100%;
+	box-shadow: 5px 5px 8px #323232;
+}
+
+.about-info-img {
+	border-radius: 50%;
+	margin: 5% 5% 5% 15%;
+	box-shadow: 5px 5px 8px #323232;
 }
