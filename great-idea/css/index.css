@@ -123,7 +123,7 @@ nav {
 	text-align: center;
 }
 
-nav a:hover {
+.links a:hover {
 	background: #000;
 }
 
@@ -152,6 +152,26 @@ header {
 	display: flex;
 	padding: 10% 0;
 	border-bottom: 3px solid black;
+}
+
+header.services-header {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 5% 0;
+
+}
+
+.header-content {
+	padding: 3%;
+	margin: 2% 0 0 0;
+}
+
+.header-content h2 {
+	font-size: 30px;
+}
+
+.header-content p {
+	font-size: 24px;
 }
 
 .page-title h1 {
@@ -187,7 +207,7 @@ header {
 	padding: 3%;
 }
 
-.middle-img {
+.middle-img, .services-header-img {
 	width: 100%;
 	box-shadow: 5px 5px 8px #000;
 }
